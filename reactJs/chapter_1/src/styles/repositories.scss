@@ -1,0 +1,30 @@
+section.repository-list {
+  margin: 40px;
+
+  h1 {
+    margin-bottom: 16px;
+    color: #222;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      & + li {
+        //& REFERENCIA O PROPRIO ELEMENTO. SEMPRE Q TIVER OUTRO LI NA  FRENTE VAI ADICIONAR A MARGIN TOP
+        margin-top: 20px;
+      }
+    }
+    p {
+      font-size: 14px;
+      color: #444;
+      margin-top: 8px;
+    }
+    a {
+      display: inline-block;
+      margin-top: 16px;
+      text-decoration: none;
+      color: #8257e6;
+    }
+  }
+}
